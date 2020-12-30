@@ -2,11 +2,11 @@
 
 Este proyecto tiene como objetivo simplificar y orientar la forma en que los principiantes realizan su primera contribución. Si desea realizar su primera contribución, siga los pasos a continuación.
 
+<img align="right" width="300" src="./assets/imagenes/fork.png" alt="fork" />
+
 ## 1. Fork este repositorio
 
 Clic en el botón de "Fork" en la parte superior de esta página. Esto creará una copia de este repositorio en su cuenta.
-
-<img align="right" width="300" src="./assets/imagenes/fork.png" alt="fork" />
 
 ## 2. Clone el repositorio
 
@@ -14,13 +14,13 @@ Ahora clone el repositorio bifurcado en su computadora. Vaya a su cuenta de GitH
 
 <img width="300" src="./assets/imagenes/code.png" alt="fork" />
 
+<img width="300" src="./assets/imagenes/clone.png" alt="fork" />
+
 Abra una terminal y ejecute el siguiente comando git:
 
 ```
 git clone url_que_acaba_de_copiar
 ```
-
-<img width="300" src="./assets/imagenes/clone.png" alt="fork" />
 
 Por ejemplo:
 
@@ -57,6 +57,8 @@ git checkout -b agregar-maria-sanchez
 Ahora abra el archivo `Contribuidores.md` en un editor de texto, agregue su nombre. Ahora, guarde el archivo.
 
 Si va al directorio del proyecto y ejecuta el comando `git status`, verá que hay cambios.
+
+<img src="./assets/imagenes/git-status.png" alt="git status" />
 
 Agregue esos cambios a la rama que acaba de crear usando el comando `git add`
 
